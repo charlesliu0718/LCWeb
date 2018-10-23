@@ -17,7 +17,8 @@
 		<!-- 变量定义 -->
 		<dep.ver.lombok>1.16.10</dep.ver.lombok>
 		<dep.ver.druid>1.0.1</dep.ver.druid>
-		<dep.ver.mysql>5.1.21</dep.ver.mysql>
+		<!-- 报错java.math.BigInteger cannot be cast to java.lang.Long 是因为此jar版本和mysql80不匹配 -->
+		<dep.ver.mysql>5.1.46</dep.ver.mysql> 
 		<dep.ver.springframework>4.2.5.RELEASE</dep.ver.springframework>
 		<dep.ver.mybatis>3.3.0</dep.ver.mybatis>
 		<dep.ver.mybatis-spring>1.3.0</dep.ver.mybatis-spring>
